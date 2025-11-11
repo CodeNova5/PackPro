@@ -1,0 +1,80 @@
+import { Product, Category } from '../types/product';
+
+export const categories: Category[] = [
+  { id: 'boxes', name: 'Boxes & Cartons', icon: 'Package' },
+  { id: 'bags', name: 'Bags & Pouches', icon: 'ShoppingBag' },
+  { id: 'wrapping', name: 'Wrapping Materials', icon: 'Layers' },
+  { id: 'protection', name: 'Protection & Cushioning', icon: 'Shield' },
+  { id: 'tape', name: 'Tape & Adhesives', icon: 'Stamp' },
+  { id: 'labels', name: 'Labels & Stickers', icon: 'Tag' },
+];
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Corrugated Shipping Boxes',
+    description: 'Heavy-duty corrugated boxes for secure shipping and storage',
+    category: 'boxes',
+    image: 'https://images.pexels.com/photos/4792489/pexels-photo-4792489.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Multiple sizes', 'Double-wall construction', 'Eco-friendly material'],
+    popular: true,
+  },
+  {
+    id: '2',
+    name: 'Kraft Paper Bags',
+    description: 'Premium kraft paper bags for retail and food packaging',
+    category: 'bags',
+    image: 'https://images.pexels.com/photos/6069113/pexels-photo-6069113.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Biodegradable', 'Strong handles', 'Custom printing available'],
+    popular: true,
+  },
+  {
+    id: '3',
+    name: 'Bubble Wrap Roll',
+    description: 'Premium bubble wrap for maximum product protection',
+    category: 'protection',
+    image: 'https://images.pexels.com/photos/4464482/pexels-photo-4464482.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Air cushioning', 'Perforated sheets', 'Multiple widths'],
+    popular: true,
+  },
+  {
+    id: '4',
+    name: 'Stretch Film',
+    description: 'Industrial-grade stretch wrap for pallet wrapping',
+    category: 'wrapping',
+    image: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['High tensile strength', 'Clear visibility', 'Easy application'],
+  },
+  {
+    id: '5',
+    name: 'Packing Tape',
+    description: 'Strong adhesive tape for secure box sealing',
+    category: 'tape',
+    image: 'https://images.pexels.com/photos/4464588/pexels-photo-4464588.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Weather resistant', 'Strong adhesive', 'Noise-reducing'],
+  },
+  {
+    id: '6',
+    name: 'Poly Mailer Bags',
+    description: 'Lightweight and durable shipping bags',
+    category: 'bags',
+    image: 'https://images.pexels.com/photos/8474452/pexels-photo-8474452.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Water resistant', 'Self-sealing', 'Tear-proof'],
+  },
+  {
+    id: '7',
+    name: 'Foam Sheets',
+    description: 'Protective foam for delicate items',
+    category: 'protection',
+    image: 'https://images.pexels.com/photos/6169658/pexels-photo-6169658.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Shock absorption', 'Non-abrasive', 'Reusable'],
+  },
+  {
+    id: '8',
+    name: 'Shipping Labels',
+    description: 'Professional adhesive shipping labels',
+    category: 'labels',
+    image: 'https://images.pexels.com/photos/4464482/pexels-photo-4464482.jpeg?auto=compress&cs=tinysrgb&w=800',
+    features: ['Waterproof', 'Easy peel', 'Printer compatible'],
+  },
+];
